@@ -1,0 +1,1490 @@
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('./fonts/SFProText-Bold.ttf') format('ttf');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('./fonts/SFProText-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('./fonts/SFProText-Light.ttf') format('ttf');
+  font-weight: thin;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./fonts/SFProDisplay-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./fonts/SFProDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('./fonts/SFProDisplay-Light.woff') format('woff');
+  font-weight: thin;
+  font-style: normal;
+}
+
+html {
+  display: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  box-sizing: border-box;
+}
+
+main {
+  padding-top: 45px;
+}
+
+body {
+  font-family: 'Sf Pro Display';
+  letter-spacing: normal;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+nav {
+  background: #2d3033;
+  font-weight: normal;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+  z-index: 10;
+  font-family: 'SF Pro Text' !important;
+  font-size: 14px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f5f5f7;
+  opacity: 0.8;
+}
+
+nav ul li a:hover {
+  color: white;
+  opacity: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.apple-logo {
+  width: 15px;
+}
+
+.bag-img {
+  width: 15px;
+}
+
+.search-img {
+  width: 20px;
+}
+
+.hide-desktop {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 11px 35px;
+}
+
+.blue-line {
+  padding: 15px;
+
+  background: #0071e3;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-family: 'SF Pro Text' !important;
+}
+
+.blue-line a {
+  color: white;
+}
+
+.blue-line a:hover {
+  text-decoration: underline;
+}
+
+.white-line {
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'SF Pro Text' !important;
+}
+
+.white-line a {
+  color: #0071e3;
+}
+
+.white-line a:hover {
+  text-decoration: underline;
+}
+
+.event-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f4f4f4;
+  padding: 0 350px;
+}
+
+video {
+  padding-top: 60px;
+}
+
+.event-text h1 {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.event-text {
+  text-align: center;
+  color: #1d326c;
+  padding-top: 12px;
+  padding-bottom: 50px;
+}
+
+.event-text p {
+  font-size: 25px;
+  font-weight: 200px;
+  padding: 10px;
+}
+
+.event-btn {
+  border: 1px solid;
+  border-color: #1d326c;
+  color: #1d326c;
+  padding: 20px 40px;
+  font-size: 15pt;
+  border-radius: 50px;
+  transition: ease-out 0.4s;
+}
+
+.event-btn:hover {
+  background: #1d2c5e;
+  color: white;
+}
+
+.div-event-btn {
+  padding-top: 30px;
+}
+
+.watch-section {
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch6logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 250px;
+  padding: 20px 0;
+}
+
+.watch-text {
+  color: white;
+  max-width: 600px;
+}
+
+.watch-text h2 {
+  font-size: 25px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.div-watch-btn {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.div-watch-btn a {
+  display: inline-block;
+  color: white;
+  border: 1px solid;
+  padding: 20px 30px;
+  font-size: 15pt;
+  border-radius: 50px;
+  transition: ease-out 0.4s;
+  width: 30%;
+  margin: 0 15px;
+}
+
+.div-watch-btn a:hover {
+  color: black;
+  background: white;
+}
+
+.watch-se {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.watch-se-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 250px;
+  padding: 20px 0;
+}
+
+.watch-se-text {
+  color: white;
+  max-width: 500px;
+}
+
+.watch-se-img {
+  padding-left: 50px;
+}
+
+.watch-se-text h2 {
+  font-size: 25px;
+  padding: 20px 0;
+  text-align: center;
+  color: black;
+}
+
+.div-watch-se-btn {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.div-watch-se-btn a {
+  display: inline-block;
+  color: black;
+  border: 1px solid;
+  padding: 20px 30px;
+  font-size: 15pt;
+  border-radius: 50px;
+  transition: ease-out 0.4s;
+  width: 40%;
+  margin: 0 15px;
+}
+
+.div-watch-se-btn a:hover {
+  color: white;
+  background: black;
+}
+
+.fitness {
+  background: #f5f5f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.fitness-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 300px;
+  padding: 20px 0;
+}
+
+.fitness-text {
+  color: rgb(32, 32, 32);
+  max-width: 500px;
+  z-index: 10;
+  margin-left: 80px;
+}
+
+.fitness-img {
+  height: 1200px;
+  width: 1314px;
+  background-size: 1314px 1228px;
+  background-repeat: no-repeat;
+  background-image: url(images/fitness.jpg);
+  margin-left: 80px;
+}
+
+.fitness-text p {
+  text-align: center;
+  font-size: 18pt;
+  color: gray;
+}
+
+.fitness-text h2 {
+  font-size: 25px;
+  padding: 20px 0;
+  text-align: center;
+  color: black;
+}
+
+.div-fitness-btn {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.div-fitness-btn a {
+  display: inline-block;
+  color: black;
+  border: 1px solid;
+  padding: 20px 30px;
+  font-size: 15pt;
+  border-radius: 50px;
+  transition: ease-out 0.4s;
+  width: 40%;
+}
+
+.div-fitness-btn a:hover {
+  color: white;
+  background: black;
+}
+
+.ipad-air {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 360px;
+}
+
+.ipad-air-img {
+  width: 1000px;
+  padding: 60px 0;
+}
+
+.div-ipad-air-btn {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.div-ipad-air-btn a {
+  display: inline-block;
+  color: black;
+  border: 1px solid;
+  padding: 20px 30px;
+  font-size: 15pt;
+  border-radius: 50px;
+  transition: ease-out 0.4s;
+  margin: 0 15px;
+}
+
+.div-ipad-air-btn a:hover {
+  color: white;
+  background: black;
+}
+
+.ipad-air-text p {
+  text-align: center;
+  font-size: 18pt;
+  color: gray;
+  padding: 10px;
+}
+
+.show-mobile-air {
+  display: none;
+}
+
+.ipad-air-logo {
+  width: 150px;
+  padding-top: 40px;
+}
+
+.ipad-air-text h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 25px;
+}
+
+.ipad {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.ipad-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 250px;
+  padding: 20px 0;
+}
+
+.ipad-img {
+  width: 800px;
+}
+
+.ipad-text {
+  color: black;
+  text-align: center;
+  max-width: 550px;
+  margin-left: 40px;
+}
+
+.ipad-text h2 {
+  font-size: 25px;
+  padding: 20px 0;
+  text-align: center;
+  color: black;
+}
+
+.ipad-btn {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.ipad-btn a {
+  display: inline-block;
+  color: black;
+  border: 1px solid;
+  padding: 20px 30px;
+  font-size: 15pt;
+  border-radius: 50px;
+  transition: ease-out 0.4s;
+  width: 30%;
+  margin: 0 15px;
+}
+
+.ipad-btn a:hover {
+  color: white;
+  background: black;
+}
+
+.one {
+  background: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 300px 0;
+}
+
+.one-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 200px;
+  padding: 20px 0;
+}
+
+.one-text {
+  color: rgb(32, 32, 32);
+  max-width: 600px;
+  z-index: 10;
+}
+
+.one-img {
+  width: 700px;
+  padding-left: 50px;
+}
+
+.one-text p {
+  text-align: center;
+  font-size: 18pt;
+  color: gray;
+}
+
+.one-text h2 {
+  font-size: 25px;
+  padding: 20px 0;
+  text-align: center;
+  color: black;
+}
+
+.one-btn {
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+
+.one-btn a {
+  display: inline-block;
+  color: black;
+  border: 1px solid;
+  padding: 20px 30px;
+  font-size: 15pt;
+  border-radius: 50px;
+  transition: ease-out 0.4s;
+}
+
+.one-btn a:hover {
+  color: white;
+  background: black;
+}
+
+sup a {
+  color: black;
+  font-size: 12pt;
+}
+
+footer {
+  padding: 0 200px;
+  background: #f5f5f7;
+  font-family: 'SF Pro Text';
+}
+
+footer .footnotes li {
+  color: #86868b;
+  font-size: 10pt;
+  padding: 7px 0;
+}
+
+footer .footnotes {
+  border-bottom: 1px solid;
+  border-color: #9c9ca1;
+  padding: 20px 0;
+}
+
+footer .column-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 7px 0;
+}
+
+footer .wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+footer .column-footer li a {
+  color: #555557;
+  font-size: 10pt;
+}
+
+footer .column-footer h3 {
+  font-size: 10pt;
+  padding: 20px 0 7px 0;
+  color: black;
+}
+
+footer .pad {
+  padding-left: 50px;
+}
+
+footer .div1 {
+  padding-right: 40px;
+}
+
+footer .column-footer li a:hover {
+  text-decoration: underline;
+}
+
+footer .shop-footer {
+  color: #86868b;
+  font-size: 10pt;
+  border-bottom: 1px solid;
+  border-color: #9c9ca1;
+  padding: 20px 0 10px 0;
+}
+
+footer .shop-footer a {
+  color: #0071e3;
+}
+
+footer .shop-footer a:hover {
+  text-decoration: underline;
+}
+
+footer .rights-wrapper {
+  display: flex;
+  flex-direction: row;
+  font-size: 10pt;
+  padding: 15px 0 50px 0;
+}
+
+.copyrights {
+  color: #86868b;
+  padding-right: 20px;
+}
+
+footer .footer-links li {
+  display: inline-block;
+  padding: 0 7px;
+}
+
+footer .footer-links a {
+  color: #2d3033;
+}
+
+footer .border {
+  border-right: 1px solid;
+}
+
+footer .footer-links a:hover {
+  text-decoration: underline;
+}
+
+footer .country {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+footer .country a {
+  color: #2d3033;
+  padding-left: 158px;
+}
+
+footer .country a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1600px) {
+  footer {
+    padding: 0 300px;
+  }
+}
+@media (min-width: 1700px) {
+  footer {
+    padding: 0 400px;
+  }
+}
+
+@media (min-width: 1800px) {
+  footer {
+    padding: 0 500px;
+  }
+}
+
+@media (max-width: 1370px) {
+  .event-section {
+    padding: 0 150px;
+  }
+
+  .div-event-btn a {
+    padding: 15px 30px;
+    width: 30%;
+  }
+
+  .watch-img {
+    max-width: 500px;
+  }
+
+  .watch-section {
+    padding: 20px;
+  }
+
+  .div-watch-btn a {
+    padding: 10px 20px;
+    width: 30%;
+    font-size: 13pt;
+  }
+
+  .watch-se {
+    padding: 20px;
+  }
+
+  .watch-se-img {
+    max-width: 600px;
+  }
+
+  .div-watch-se-btn a {
+    padding: 10px 20px;
+    width: 30%;
+    font-size: 13pt;
+  }
+
+  .fitness {
+    padding: 20px 0 20px 20px;
+  }
+
+  .fitness-text {
+    margin: 0;
+  }
+
+  .div-fitness-btn a {
+    padding: 10px 20px;
+    width: 30%;
+    font-size: 13pt;
+  }
+
+  .ipad-air {
+    padding: 20px 50px;
+  }
+
+  .ipad-air-img {
+    width: 800px;
+  }
+
+  .div-ipad-air-btn a {
+    padding: 10px 20px;
+    font-size: 13pt;
+  }
+
+  .ipad {
+    padding: 20px;
+  }
+
+  .ipad-img {
+    width: 600px;
+  }
+
+  .ipad-btn a {
+    padding: 10px 20px;
+    font-size: 13pt;
+    width: 30%;
+  }
+
+  .one {
+    padding: 60px 20px;
+  }
+
+  .one-img {
+    width: 600px;
+  }
+
+  .one-text {
+    max-width: 500px;
+  }
+
+  .one-btn a {
+    padding: 10px 20px;
+    font-size: 13pt;
+    width: 30%;
+  }
+
+  footer {
+    padding: 0 100px;
+  }
+
+  footer .country a {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  video {
+    width: 370px;
+    height: 485px;
+  }
+
+  .event-text h1 {
+    font-size: 50px;
+  }
+
+  .event-text p {
+    font-size: 20px;
+  }
+
+  .div-event-btn a {
+    padding: 10px 10px;
+    font-size: 11pt;
+  }
+
+  .watch-section {
+    padding: 40px;
+  }
+
+  .watch-img {
+    width: 400px;
+  }
+
+  .watch6logo {
+    width: 150px;
+  }
+
+  .watch-text h2 {
+    font-size: 20px;
+  }
+
+  .div-watch-btn a {
+    padding: 10px;
+    font-size: 10pt;
+    width: 25%;
+  }
+
+  .watch-se {
+    padding: 40px;
+  }
+
+  .watch-se-text h2 {
+    font-size: 20px;
+  }
+
+  .watch-se-logo {
+    width: 150px;
+  }
+
+  .watch-se-img {
+    width: 500px;
+  }
+
+  .div-watch-se-btn a {
+    padding: 10px;
+    font-size: 10pt;
+    width: 25%;
+  }
+
+  .fitness {
+    padding: 40px 0 40px 40px;
+  }
+
+  .fitness-logo {
+    width: 170px;
+  }
+
+  .fitness-text p {
+    font-size: 13pt;
+  }
+
+  .fitness-text h2 {
+    font-size: 20px;
+  }
+
+  .div-fitness-btn a {
+    padding: 10px;
+    font-size: 10pt;
+  }
+
+  .ipad-air {
+    padding: 40px 60px;
+  }
+
+  .ipad-air-logo {
+    width: 150px;
+  }
+
+  .ipad-air-img {
+    width: 600px;
+  }
+
+  .ipad-air-text p {
+    font-size: 13pt;
+  }
+
+  .ipad-air-text h2 {
+    font-size: 20px;
+  }
+
+  .div-ipad-air-btn a {
+    padding: 10px 15px;
+    font-size: 10pt;
+  }
+
+  .ipad {
+    padding: 40px;
+  }
+
+  .ipad-img {
+    width: 400px;
+  }
+
+  .ipad-logo {
+    width: 150px;
+  }
+
+  .ipad-text h2 {
+    font-size: 20px;
+  }
+
+  .ipad-btn a {
+    padding: 10px;
+    font-size: 10pt;
+    width: 20%;
+  }
+
+  .one {
+    padding: 40px;
+  }
+
+  .one-img {
+    width: 450px;
+  }
+
+  .one-text p {
+    font-size: 13pt;
+  }
+
+  .one-text h2 {
+    font-size: 20px;
+  }
+
+  .one-btn a {
+    padding: 10px;
+    font-size: 10pt;
+  }
+
+  footer {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 950px) {
+  .ipad-btn a {
+    width: 25%;
+  }
+}
+
+@media (max-width: 850px) {
+  nav {
+    font-size: 10pt;
+  }
+
+  nav ul li {
+    padding: 11px 15px;
+  }
+
+  video {
+    width: 330px;
+    height: 445px;
+  }
+  .event-text h1 {
+    font-size: 40px;
+  }
+  .event-text p {
+    font-size: 17px;
+  }
+
+  .div-event-btn a {
+    padding: 10px;
+    font-size: 10pt;
+  }
+
+  .watch-section {
+    padding: 40px;
+  }
+
+  .watch-img {
+    width: 300px;
+  }
+
+  .watch6logo {
+    padding: 10px 0;
+    width: 120px;
+  }
+
+  .watch-text h2 {
+    font-size: 17px;
+    padding: 0;
+  }
+
+  .div-watch-btn a {
+    padding: 8px;
+    font-size: 10pt;
+    width: 30%;
+    margin: 0 8px;
+  }
+
+  .watch-se-logo {
+    padding: 10px 0;
+    width: 120px;
+  }
+
+  .watch-se-img {
+    width: 350px;
+    padding-left: 20px;
+  }
+
+  .watch-se-text h2 {
+    font-size: 17px;
+    padding: 0;
+  }
+
+  .div-watch-se-btn a {
+    padding: 8px;
+    font-size: 10pt;
+    width: 40%;
+    margin: 0 7px;
+  }
+
+  .fitness-logo {
+    max-width: 200px;
+    padding: 10px 0;
+  }
+
+  .fitness-text h2 {
+    font-size: 17px;
+  }
+
+  .fitness-text {
+    max-width: 550px;
+  }
+
+  .fitness-img {
+    height: 900px;
+    width: 1014px;
+    background-size: 1014px 900px;
+    margin-left: 30px;
+  }
+
+  .div-fitness-btn a {
+    padding: 8px;
+    font-size: 10pt;
+    width: 35%;
+  }
+
+  .ipad-air-logo {
+    width: 100px;
+  }
+
+  .ipad-air-img {
+    width: 450px;
+  }
+
+  .ipad-air-text h2 {
+    font-size: 17px;
+  }
+
+  .div-ipad-air-btn a {
+    font-size: 10pt;
+    padding: 8px;
+    margin: 0 8px;
+  }
+
+  .ipad-logo {
+    width: 100px;
+    padding: 0;
+  }
+
+  .ipad-img {
+    width: 350px;
+    padding-left: 10px;
+  }
+  .ipad-text {
+    margin-left: 30px;
+  }
+  .ipad-text h2 {
+    font-size: 17px;
+  }
+
+  .ipad-btn a {
+    padding: 8px;
+    margin: 0 8px;
+    font-size: 10pt;
+    width: 40%;
+  }
+
+  .one-logo {
+    width: 100px;
+    padding: 10px;
+  }
+
+  sup a {
+    font-size: 9pt;
+  }
+
+  .one-img {
+    width: 350px;
+    padding-left: 40px;
+  }
+
+  .one-text h2 {
+    font-size: 17px;
+  }
+
+  .one-btn a {
+    padding: 8px;
+    font-size: 10pt;
+    width: 40%;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  footer .pad {
+    padding-left: 30px;
+  }
+
+  footer .column-footer li a {
+    font-size: 9pt;
+  }
+
+  footer .column-footer h2 {
+    font-size: 9pt;
+  }
+
+  footer .div1 {
+    padding-right: 10px;
+  }
+
+  footer .rights-wrapper {
+    display: block;
+  }
+
+  footer .footer-links {
+    padding-top: 10px;
+  }
+
+  footer .footer-links .privacy {
+    padding-left: 0;
+  }
+
+  footer .country {
+    display: block;
+    padding: 10px 0;
+  }
+
+  footer .country a {
+    padding: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  nav {
+    padding: 9px;
+  }
+  .blue-line {
+    font-size: 10pt;
+    padding: 10px 20px;
+  }
+
+  .white-line {
+    font-size: 10pt;
+    padding: 10px 20px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu a {
+    padding: 0 72px;
+  }
+
+  .show-mobile {
+    display: block;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  .toggle-menu {
+    width: 20px;
+  }
+
+  .apple-menu-logo {
+    width: 20px;
+  }
+
+  .bag {
+    width: 18px;
+  }
+
+  .event-section {
+    padding: 20px;
+  }
+
+  video {
+    padding: 0;
+    height: 300px;
+    width: 300px;
+  }
+
+  .event-section h1 {
+    font-size: 30px;
+    line-height: 1;
+  }
+
+  .event-section p {
+    font-size: 15px;
+  }
+
+  .div-event-btn {
+    padding-top: 10px;
+  }
+
+  .div-event-btn a {
+    font-size: 11pt;
+  }
+
+  .event-text {
+    padding: 15px;
+  }
+
+  .watch-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .watch6logo {
+    width: 100px;
+    padding-top: 10px 0 0 0;
+  }
+
+  .watch-section h2 {
+    font-size: 15px;
+    padding: 0 30px;
+  }
+
+  .div-watch-btn a {
+    width: 30%;
+    margin: 0 10px;
+  }
+
+  .watch-img {
+    width: 250px;
+  }
+
+  .watch-se {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .watch-se-logo {
+    width: 100px;
+    padding-top: 10px 0 0 0;
+  }
+
+  .watch-se-text h2 {
+    font-size: 15px;
+    padding: 0 30px;
+  }
+
+  .div-watch-se-btn a {
+    width: 30%;
+    margin: 0 10px;
+  }
+
+  .watch-se-img {
+    width: 300px;
+    padding: 10px 0 0 0;
+  }
+
+  .fitness {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fitness-logo {
+    width: 100px;
+    padding: 10px 0 20px 0;
+  }
+
+  .fitness-img {
+    height: 300px;
+    width: 420px;
+    background-size: 420px 300px;
+    background-repeat: no-repeat;
+    background-image: url(images/fitness+.png);
+    margin-left: 0;
+  }
+
+  .fitness-text h2 {
+    font-size: 15px;
+    padding: 0 30px;
+  }
+
+  .fitness-text p {
+    font-size: 12pt;
+    padding: 20px 0 0 0;
+    color: #bf4800;
+  }
+
+  .div-fitness-btn a {
+    width: 30%;
+    margin: 0 10px;
+  }
+
+  .ipad-air {
+    padding: 20px;
+    background: #fbfbfd;
+  }
+
+  .ipad-air-logo {
+    display: none;
+  }
+
+  .hide-mobile-air {
+    display: none;
+  }
+
+  .show-mobile-air {
+    display: flex;
+  }
+
+  .ipad-air-img {
+    padding: 0;
+    width: 260px;
+  }
+
+  .ipad-air-text p {
+    color: #bf4800;
+  }
+
+  .ipad-air-text h2 {
+    font-size: 15px;
+    padding: 0 30px;
+  }
+
+  .div-ipad-air-btn a {
+    margin: 0 10px;
+  }
+
+  .ipad {
+    padding: 20px 20px;
+    flex-direction: column;
+  }
+
+  .ipad-logo {
+    width: 100px;
+  }
+
+  .ipad-text {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .ipad-text h2 {
+    font-size: 15px;
+    padding: 0 30px;
+  }
+
+  .ipad-img {
+    padding: 0;
+    width: 300px;
+  }
+
+  .ipad-btn a {
+    margin: 0 10px;
+    width: 30%;
+  }
+
+  .one {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .one-text p {
+    font-size: 12pt;
+    padding: 20px 0 0 0;
+    color: #bf4800;
+  }
+
+  .one-text h2 {
+    font-size: 15px;
+    padding: 0 30px;
+  }
+
+  sup a {
+    font-size: 8pt;
+  }
+
+  .one-logo {
+    width: 100px;
+    padding: 10px 0 20px 0;
+  }
+
+  .one-img {
+    width: 350px;
+    padding-left: 35px;
+    padding-top: 25px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  footer .footnotes li {
+    font-size: 9pt;
+    padding: 10px 0;
+  }
+
+  .column-footer li a {
+    display: none;
+  }
+
+  footer .column-footer {
+    flex-direction: column;
+  }
+
+  footer .column-footer h3 {
+    padding: 10px 0;
+    border-bottom: 0.5px solid;
+    border-color: #9c9ca1;
+    color: black;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  footer .column-footer h3:after {
+    content: '+';
+    float: right;
+    padding-right: 10px;
+    font-weight: bold;
+  }
+
+  footer .div1 {
+    padding-right: 0;
+  }
+
+  footer .pad {
+    padding-left: 0;
+  }
+
+  footer .shop-footer {
+    font-size: 9pt;
+    border: none;
+  }
+
+  footer .rights-wrapper {
+    display: block;
+    padding: 0 0 10px 0;
+    font-size: 9pt;
+  }
+
+  .copyrights {
+    padding-bottom: 10px;
+  }
+  footer .footer-links li {
+    padding: 0 10px 0 0;
+  }
+
+  footer .country {
+    display: block;
+    padding: 10px 0 0 0;
+  }
+
+  footer .country a {
+    padding: 0;
+  }
+}
